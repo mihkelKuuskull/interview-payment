@@ -1,5 +1,3 @@
-import { Request } from 'express';
-
-export async function handler(request: Request) {
+export async function handler() {
     return 'pong';
 }
